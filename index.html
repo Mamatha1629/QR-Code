@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator | PACE ITS</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>QR Code Generator</h1>
+            <p>Paste a URL or enter text to create QR code</p><br>
+            <input type="text" spellcheck="false" placeholder="Enter Text or URL" id="qrText">
+        </header>
+        <div id="imgBox">
+            <div id="qrcode"></div>
+        </div>
+        <header>
+            <button onclick="generateQR()">Generate QR Code</button>
+            <p id="error-message" class="error-message">Please enter a URL or text to generate the QR code.</p>
+        </header>
+    </div>
+
+    <div class="sparkle-background">
+        <div class="sparkles-container">
+            <div class="sparkle" style="left: 50%; top: 20%; animation-delay: 0s;"></div>
+            <div class="sparkle" style="left: 60%; top: 50%; animation-delay: 0.5s;"></div>
+            <div class="sparkle" style="left: 70%; top: 70%; animation-delay: 1s;"></div>
+            <div class="sparkle" style="left: 10%; top: 20%; animation-delay: 0s;"></div>
+            <div class="sparkle" style="left: 30%; top: 50%; animation-delay: 0.5s;"></div>
+            <div class="sparkle" style="left: 50%; top: 70%; animation-delay: 1s;"></div>
+            <div class="sparkle" style="left: 70%; top: 30%; animation-delay: 1.5s;"></div>
+            <div class="sparkle" style="left: 90%; top: 60%; animation-delay: 2s;"></div>
+            <div class="sparkle" style="left: 50%; top: 60%; animation-delay: 0s;"></div>
+            <div class="sparkle" style="left: 60%; top: 50%; animation-delay: 0.5s;"></div>
+            <div class="sparkle" style="left: 70%; top: 100%; animation-delay: 1s;"></div>
+            <div class="sparkle" style="left: 10%; top: 50%; animation-delay: 0s;"></div>
+            <div class="sparkle" style="left: 30%; top: 60%; animation-delay: 0.5s;"></div>
+            <div class="sparkle" style="left: 50%; top: 90%; animation-delay: 1s;"></div>
+            <div class="sparkle" style="left: 70%; top: 40%; animation-delay: 1.5s;"></div>
+            <div class="sparkle" style="left: 90%; top: 50%; animation-delay: 2s;"></div>
+            <div class="sparkle" style="left: 10%; top: 20%; animation-delay: 0s;"></div>
+            <div class="sparkle" style="left: 30%; top: 50%; animation-delay: 0.5s;"></div>
+            <div class="sparkle" style="left: 50%; top: 40%; animation-delay: 1s;"></div>
+            <div class="sparkle" style="left: 70%; top: 30%; animation-delay: 1.5s;"></div>
+            <div class="sparkle" style="left: 90%; top: 60%; animation-delay: 2s;"></div>
+            <div class="sparkle" style="left: 15%; top: 80%; animation-delay: 1.2s;"></div>
+            <div class="sparkle" style="left: 65%; top: 40%; animation-delay: 2.5s;"></div>
+            <div class="sparkle" style="left: 85%; top: 25%; animation-delay: 1.8s;"></div>
+            <div class="sparkle" style="left: 10%; top: 20%; animation-delay: 0s;"></div>
+            <div class="sparkle" style="left: 90%; top: 50%; animation-delay: 0.5s;"></div>
+            <div class="sparkle" style="left: 90%; top: 70%; animation-delay: 1s;"></div>
+            <div class="sparkle" style="left: 40%; top: 30%; animation-delay: 1.5s;"></div>
+        </div>
+    </div>
+</body>
+</html>
